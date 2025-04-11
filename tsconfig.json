@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "driverlist": ["./build/Release/driverlist"]
+    },
+    "typeRoots": ["./types"]
+  }
+}

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile": "npm run configure && npm run build",
+    "compile": "npm run clean && npm run configure && npm run build",
+    "clean": "node-gyp clean",
     "configure": "node-gyp configure",
     "build": "node-gyp build",
     "tsc": "tsc"
